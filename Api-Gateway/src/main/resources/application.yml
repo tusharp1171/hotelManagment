@@ -1,0 +1,19 @@
+#spring:
+#  application:
+#    name: Api-Gateway
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: COMPANY-SERVICE
+#          uri: http://localhost:8083
+#          predicates:
+#            - Path=**
+#
+#
+#server:
+#  port: 8088
+#
+#management:
+#  tracing:
+#    sampling:
+#      probability: 1.0
